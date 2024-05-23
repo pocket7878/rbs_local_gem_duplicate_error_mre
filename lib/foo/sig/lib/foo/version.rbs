@@ -1,0 +1,7 @@
+module Foo
+  VERSION: "0.1.0"
+
+  def foo: () -> String
+  # sigは自動的に読み込まれてるので、以下をコメントインするとSteepfileに書かなくてお重複エラーがちゃんと報告される
+  #def foo: () -> String
+end
